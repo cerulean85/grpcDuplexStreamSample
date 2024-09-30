@@ -1,0 +1,7 @@
+obj\
+bin\
+GrpcServer\obj\*
+GrpcServer\bin\*
+GrpcClient\obj\*
+GrpcClient\bin\*
+.vs\

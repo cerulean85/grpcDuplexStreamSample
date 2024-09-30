@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcDuplexStreamSample", "GrpcDuplexStreamSample.csproj", "{03A57D5C-671B-4014-A0B7-3EC0DFF6BC6C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcServer", "GrpcServer\GrpcServer.csproj", "{5F2C1F3A-F2FF-4DAE-988F-AB0CD42254F5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GrpcClient", "GrpcClient\GrpcClient.csproj", "{8D10380C-31AF-4FA6-A316-30B0BCDC95A3}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "GrpcProto", "GrpcProto\GrpcProto.shproj", "{FB1C5CB6-E90E-4926-91AE-E958F75552C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A57D5C-671B-4014-A0B7-3EC0DFF6BC6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A57D5C-671B-4014-A0B7-3EC0DFF6BC6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A57D5C-671B-4014-A0B7-3EC0DFF6BC6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A57D5C-671B-4014-A0B7-3EC0DFF6BC6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F2C1F3A-F2FF-4DAE-988F-AB0CD42254F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F2C1F3A-F2FF-4DAE-988F-AB0CD42254F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F2C1F3A-F2FF-4DAE-988F-AB0CD42254F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F2C1F3A-F2FF-4DAE-988F-AB0CD42254F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D10380C-31AF-4FA6-A316-30B0BCDC95A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D10380C-31AF-4FA6-A316-30B0BCDC95A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D10380C-31AF-4FA6-A316-30B0BCDC95A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D10380C-31AF-4FA6-A316-30B0BCDC95A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88E93D22-4198-4870-A55B-169CBAFF498A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		GrpcProto\GrpcProto.projitems*{5f2c1f3a-f2ff-4dae-988f-ab0cd42254f5}*SharedItemsImports = 5
+		GrpcProto\GrpcProto.projitems*{8d10380c-31af-4fa6-a316-30b0bcdc95a3}*SharedItemsImports = 5
+		GrpcProto\GrpcProto.projitems*{fb1c5cb6-e90e-4926-91ae-e958f75552c3}*SharedItemsImports = 13
+	EndGlobalSection
+EndGlobal

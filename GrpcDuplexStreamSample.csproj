@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="GrpcClient\**" />
+    <Compile Remove="GrpcProto\**" />
+    <Compile Remove="GrpcServer\**" />
+    <EmbeddedResource Remove="GrpcClient\**" />
+    <EmbeddedResource Remove="GrpcProto\**" />
+    <EmbeddedResource Remove="GrpcServer\**" />
+    <None Remove="GrpcClient\**" />
+    <None Remove="GrpcProto\**" />
+    <None Remove="GrpcServer\**" />
+  </ItemGroup>
+
+</Project>
